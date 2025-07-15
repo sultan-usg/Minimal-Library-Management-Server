@@ -54,8 +54,8 @@ A full-featured **RESTful API** built with **Express**, **TypeScript**, and **Mo
 ### 1. 📦 Clone and Install
 
 ```bash
-git clone https://github.com/your-username/library-management-api.git
-cd library-management-api
+git clone https://github.com/sultan-usg/Minimal-Library-Management-Server.git
+cd Minimal-Library-Management-Serve
 npm install
 ```
 
