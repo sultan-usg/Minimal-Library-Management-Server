@@ -5,7 +5,7 @@ import cors from 'cors';
 const app: Application = express();
 
 app.use(express.json())
-app.use(cors({origin: "http://localhost:5173"}))
+app.use(cors({ origin: ["http://localhost:5173", "https://books-finder-bd.vercel.app"] }))
 
 app.use('/api/books', bookRoutes);
 app.use('/api/borrow', borrowRoutes);
